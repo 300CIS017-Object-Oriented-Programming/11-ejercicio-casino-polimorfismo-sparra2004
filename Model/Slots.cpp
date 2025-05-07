@@ -1,6 +1,11 @@
 #include "Slots.h"
-
+void Slots::mostrarReglas() {
+    cout << "Slots es un juego en el que una maquina escoge aleatoriamente 3 simbolos (en algunos\n"
+            "modelos son 5). Si caen los 3 simbolos iguales o alguna combinación especial el jugador\n"
+            "ganará cierta cantidad, de lo contrario perdera lo apostado.\n";
+}
 float Slots::jugar(float gonzosApostar) {
+    mostrarReglas();
     float gonzosResultado;
     srand(time(nullptr));
     int numMaxRandom = 7;

@@ -3,8 +3,12 @@
 //
 
 #include "DosColores.h"
-
+void DosColores::mostrarReglas() {
+    std::cout << "Reglas de DosColores:\n";
+    std::cout << "El jugador apuesta a rojo o negro. Si acierta, gana.\n";
+}
 float DosColores::jugar(float gonzosApostar) {
+    mostrarReglas();
     float gonzosResultado;
     srand(time(nullptr));
     int numMaxRandom = 7;
@@ -21,7 +25,7 @@ float DosColores::jugar(float gonzosApostar) {
     --colorJugador; // Se ajusta el valor del color
     cout << "Numero casino: " << numeroCasino << endl;
     cout << "Color casino: ";
-    if (colorCasino == 0) {
+    if (colorCasino == 0){
         cout << "Blanco." << endl;
     } else {
         cout << "Negro." << endl;
