@@ -1,0 +1,14 @@
+//
+// Created by santiago on 7/05/2025.
+//
+
+#ifndef CASINO_POLIMORFISMO_PIEDRAPAPELTIJERA_H
+#define CASINO_POLIMORFISMO_PIEDRAPAPELTIJERA_H
+
+
+class PiedraPapelTijera {
+
+};
+
+
+#endif //CASINO_POLIMORFISMO_PIEDRAPAPELTIJERA_H
