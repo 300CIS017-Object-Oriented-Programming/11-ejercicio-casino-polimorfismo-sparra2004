@@ -3,8 +3,12 @@
 //
 
 #include "Mayor13.h"
-
+void Mayor13::mostrarReglas() {
+    std::cout << "Reglas de Mayor13:\n";
+    std::cout << "El jugador gana si su numero es mayor al del casino.\n";
+}
 float Mayor13::jugar(float gonzosApostar) {
+    mostrarReglas();
     int opcion;
     float gonzosResultado;
     float lowestResult = 0.5;
